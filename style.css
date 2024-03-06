@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: black;
+}
+.b1{
+    background-image: url(pic.png);
+    
+}
+.b2{
+    background-image: url(pic1.png);
+   
+}
+.b3{
+   background-image: url(PIC2.png);
+   
+}
+.b4{
+    background-image: url(pic3.png);
+  
+}
+.b5{
+    background-image: url(pic4.png);
+    
+}
+.b6{
+    background-image: url(pic5.png);
+    
+}
+.b7{
+    background-image: url(pic6.png);
+    
+}
+.b8{
+    background-image: url(pic7.png);
+   
+}
+.b9{
+    background-image: url(pic9.png);
+    
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    color: rgba(244, 27, 27, 0.947);
+}
+.menu > div{
+    height: 300px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+
+   
+}
+.menu > div:hover{
+    opacity: 1.0;
+    transform: scale(0.9);
+}
+.menu > div:nth-of-type(1){
+    grid-column: 1/3;
+}
+.menu > div:nth-of-type(9){
+    grid-column: 1/4;
+}
